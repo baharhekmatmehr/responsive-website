@@ -82,3 +82,8 @@
 .box{
  border-color : var(--primary-light);
 }
+/* .p {
+    direction: rtl;
+    border-bottom: 1px solid red;
+
+  }  */
