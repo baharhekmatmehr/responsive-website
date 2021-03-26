@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #00592b ;
+    --primary-light: #3c8755 ;
+    --primary-dark: #002e01;
+    --primary-text-color: #000000 ;
+    --primary-text-color-light: rgb(255, 255, 255)    ;
+    --yekan: BYekan,'BYekan',tahoma;
+}
+.primary-color {
+    color: var(--primary-color);
+}
+.bg-primary-color {
+    background-color: var(--primary-color);
+}
+.primary-light {
+    color: var(--primary-light);
+}
+.bg-primary-light {
+    background-color: var(--primary-light);
+}
+.primary-dark {
+    color: var(--primary-dark);
+}
+.bg-primary-dark {
+    background-color: var(--primary-dark);
+}
+.font-yekan {
+    font-family: var(--yekan);
+}
+
+ nav{
+    background-color: var(--primary-color);
+    font-family: var(--yekan);
+}
+.img img {
+    width: 100%;}   
+.row, .col{
+        padding-top:30px;
+}
+.row, .col, .next-line{
+    padding-top: 30px;
+    padding-bottom: 800px;
+}
+ .row, .col, .card{
+ height: 370px;
+ border-radius: 30px 30px;
+ 
+ }
+ .footer, .container{
+    max-height: 330px;
+    
+ }
+
+ 
+ .row, .col, .card, .card-body{
+     font-family: var(--yekan);
+    
+ } 
+ .row, .col, .card, .card-body, .img{
+     border-radius: 20px 20px;
+ }
+ .row, .col, .card, .card-body, .card-img-top{
+    border-radius: 20px 20px;
+ }
+  .card-img-top{
+    max-width: 200px;
+    height: 200px; 
+ }
+ 
+ .btn {
+     font-family: var(--yekan);
+     transition: width 1s ease-in;
+ }
+.btn:hover{
+    width: 50%;
+    
+}
+.star{
+    padding-bottom: 10px;
+}
+.box{
+ border-color : var(--primary-light);
+}
