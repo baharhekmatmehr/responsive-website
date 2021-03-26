@@ -35,14 +35,15 @@
 .img img {
     width: 100%;}   
 .row, .col{
-        padding-top:30px;
+    padding-top:30px;
+    
 }
 .row, .col, .next-line{
     padding-top: 30px;
-    padding-bottom: 800px;
+    padding-bottom: 400px;
 }
  .row, .col, .card{
- height: 370px;
+ height: 390px;
  border-radius: 30px 30px;
  
  }
