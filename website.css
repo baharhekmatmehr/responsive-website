@@ -55,7 +55,7 @@
  
  .row, .col, .card, .card-body{
      font-family: var(--yekan);
-    
+  /* hello   */
  } 
  .row, .col, .card, .card-body, .img{
      border-radius: 20px 20px;
